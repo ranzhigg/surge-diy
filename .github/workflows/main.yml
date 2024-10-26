@@ -33,6 +33,6 @@ jobs:
 
       - name: Push Changes
         run: |
-          git push origin master
+          git push origin main
         env:
           GITHUB_TOKEN: ${{ secrets.surgediy }}  # 使用你的 GitHub Token 推送更改
