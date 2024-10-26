@@ -35,4 +35,4 @@ jobs:
         run: |
           git push origin main
         env:
-          GITHUB_TOKEN: ${{ secrets.surgediy }}  # 使用你的 GitHub Token 推送更改
+          GITHUB_TOKEN: ${{ secrets.SURGEDIY }}  # 使用你的 GitHub Token 推送更改
